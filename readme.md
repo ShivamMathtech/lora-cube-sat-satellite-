@@ -245,9 +245,9 @@ AstraCube-X/
 │   ├── power_module.cpp
 │   └── power_module.h
 │
-├── cubesat_design.png
-├── block_diagram.png
-│── communication_workflow.png
+├── circuit+dagram.png
+├── block.png
+│──cube-sat.png
 │
 ├── docs/
 │   ├── architecture.md
