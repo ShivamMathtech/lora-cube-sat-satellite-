@@ -1,13 +1,13 @@
 ---
 noteId: "1930875059a611f182007bde1f10d81e"
 tags: []
-
 ---
 
 # 🚀 AstraCube-X
+
 ## AI-Enabled CubeSat Satellite using ESP32-CAM & LoRa
 
-![CubeSat Banner](images/cubesat_design.png)
+![CubeSat Banner](cube-sat.png)
 
 An advanced educational CubeSat platform powered by ESP32-CAM, LoRa communication, GPS telemetry, onboard imaging, environmental monitoring sensors, and IoT cloud integration.
 
@@ -54,22 +54,22 @@ The project combines an ESP32-CAM flight controller with LoRa telemetry, GPS tra
 
 # 🧩 Hardware Components
 
-| Component | Purpose |
-|---|---|
-| ESP32-CAM | Main flight controller |
-| SX1278 / Ra-02 | LoRa communication |
-| BMP280 | Pressure & altitude |
-| DHT22 | Temperature & humidity |
-| MPU6050 | Motion & orientation |
-| NEO-6M GPS | Position tracking |
-| INA219 | Power monitoring |
-| OLED Display | Local telemetry display |
-| TP4056 | Battery charging module |
-| 18650 Battery | Portable power |
-| Solar Panel | Renewable energy |
-| MQ135 | Air quality monitoring |
-| BH1750 | Light intensity monitoring |
-| UV Sensor | UV index measurement |
+| Component      | Purpose                    |
+| -------------- | -------------------------- |
+| ESP32-CAM      | Main flight controller     |
+| SX1278 / Ra-02 | LoRa communication         |
+| BMP280         | Pressure & altitude        |
+| DHT22          | Temperature & humidity     |
+| MPU6050        | Motion & orientation       |
+| NEO-6M GPS     | Position tracking          |
+| INA219         | Power monitoring           |
+| OLED Display   | Local telemetry display    |
+| TP4056         | Battery charging module    |
+| 18650 Battery  | Portable power             |
+| Solar Panel    | Renewable energy           |
+| MQ135          | Air quality monitoring     |
+| BH1750         | Light intensity monitoring |
+| UV Sensor      | UV index measurement       |
 
 ---
 
@@ -126,15 +126,15 @@ Sensors → ESP32-CAM → Data Processing → LoRa Module
 ## SX1278 LoRa ↔ ESP32-CAM
 
 | SX1278 LoRa | ESP32-CAM |
-|---|---|
-| MISO | GPIO12 |
-| MOSI | GPIO13 |
-| SCK | GPIO14 |
-| NSS (CS) | GPIO15 |
-| RST | GPIO2 |
-| DIO0 | GPIO16 |
-| GND | GND |
-| VCC | 3.3V |
+| ----------- | --------- |
+| MISO        | GPIO12    |
+| MOSI        | GPIO13    |
+| SCK         | GPIO14    |
+| NSS (CS)    | GPIO15    |
+| RST         | GPIO2     |
+| DIO0        | GPIO16    |
+| GND         | GND       |
+| VCC         | 3.3V      |
 
 ---
 
@@ -143,28 +143,28 @@ Sensors → ESP32-CAM → Data Processing → LoRa Module
 ## DHT22
 
 | DHT22 | ESP32 |
-|---|---|
-| DATA | GPIO4 |
-| VCC | 3.3V |
-| GND | GND |
+| ----- | ----- |
+| DATA  | GPIO4 |
+| VCC   | 3.3V  |
+| GND   | GND   |
 
 ## BMP280
 
-| BMP280 | ESP32 |
-|---|---|
-| SDA | GPIO21 |
-| SCL | GPIO22 |
-| VCC | 3.3V |
-| GND | GND |
+| BMP280 | ESP32  |
+| ------ | ------ |
+| SDA    | GPIO21 |
+| SCL    | GPIO22 |
+| VCC    | 3.3V   |
+| GND    | GND    |
 
 ## MPU6050
 
-| MPU6050 | ESP32 |
-|---|---|
-| SDA | GPIO21 |
-| SCL | GPIO22 |
-| VCC | 3.3V |
-| GND | GND |
+| MPU6050 | ESP32  |
+| ------- | ------ |
+| SDA     | GPIO21 |
+| SCL     | GPIO22 |
+| VCC     | 3.3V   |
+| GND     | GND    |
 
 ---
 
@@ -202,19 +202,19 @@ Supported cloud platforms:
 
 # 📊 Telemetry Parameters
 
-| Parameter | Description |
-|---|---|
-| Temperature | Environmental temperature |
-| Humidity | Atmospheric humidity |
-| Pressure | Atmospheric pressure |
-| Altitude | Height estimation |
-| GPS Coordinates | Position tracking |
-| Battery Voltage | Power health |
-| Current Consumption | System power usage |
-| Signal Strength | Communication quality |
-| Motion Data | Satellite orientation |
-| UV Index | UV monitoring |
-| Air Quality | Atmospheric quality |
+| Parameter           | Description               |
+| ------------------- | ------------------------- |
+| Temperature         | Environmental temperature |
+| Humidity            | Atmospheric humidity      |
+| Pressure            | Atmospheric pressure      |
+| Altitude            | Height estimation         |
+| GPS Coordinates     | Position tracking         |
+| Battery Voltage     | Power health              |
+| Current Consumption | System power usage        |
+| Signal Strength     | Communication quality     |
+| Motion Data         | Satellite orientation     |
+| UV Index            | UV monitoring             |
+| Air Quality         | Atmospheric quality       |
 
 ---
 
@@ -384,13 +384,13 @@ Connect FTDI programmer and upload the firmware.
 
 Estimated operating power:
 
-| Module | Current |
-|---|---|
-| ESP32-CAM | 180mA |
-| LoRa Module | 120mA |
-| Sensors | 40mA |
-| GPS Module | 35mA |
-| OLED Display | 20mA |
+| Module       | Current |
+| ------------ | ------- |
+| ESP32-CAM    | 180mA   |
+| LoRa Module  | 120mA   |
+| Sensors      | 40mA    |
+| GPS Module   | 35mA    |
+| OLED Display | 20mA    |
 
 Estimated total:
 
@@ -427,16 +427,16 @@ Standard 1U CubeSat dimensions:
 
 # 🛠 Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| ESP32-CAM | Embedded controller |
-| Arduino Framework | Firmware development |
-| LoRa | Long-range communication |
-| MQTT | Cloud communication |
-| Firebase | Backend telemetry |
-| Node-RED | Dashboard visualization |
-| TinyML | Edge AI |
-| Grafana | Telemetry visualization |
+| Technology        | Purpose                  |
+| ----------------- | ------------------------ |
+| ESP32-CAM         | Embedded controller      |
+| Arduino Framework | Firmware development     |
+| LoRa              | Long-range communication |
+| MQTT              | Cloud communication      |
+| Firebase          | Backend telemetry        |
+| Node-RED          | Dashboard visualization  |
+| TinyML            | Edge AI                  |
+| Grafana           | Telemetry visualization  |
 
 ---
 
@@ -494,6 +494,7 @@ MIT License
 # 👨‍💻 Author
 
 ## Shivam Singh
+
 Founder — MathTech
 
 Passionate about:
