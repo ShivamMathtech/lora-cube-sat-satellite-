@@ -1,0 +1,10 @@
+WiFi.h
+SPI.h
+LoRa.h
+Wire.h
+TinyGPS++.h
+Adafruit_BMP280.h
+DHT.h
+MPU6050.h
+Adafruit_INA219.h
+esp_camera.h
